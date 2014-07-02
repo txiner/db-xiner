@@ -1,0 +1,3 @@
+    from hustle import Table, insert
+    impressions = Table.from_tag('impressions')
+    insert(impressions, './imprsions-june-8.json', server='disco://hustle')
